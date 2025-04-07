@@ -15,7 +15,7 @@ export default function LinkButton({ url, icon, title }: LinkButtonProps) {
             style={{
                 padding: "1rem",
                 margin: "0.5rem 0",
-                backgroundColor: "#333",
+                backgroundColor: "#0e0e0e",
                 color: "#fff",
                 borderRadius: "8px",
                 textDecoration: "none",
