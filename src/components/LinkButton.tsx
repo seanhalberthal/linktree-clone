@@ -7,15 +7,16 @@ interface LinkButtonProps {
 }
 
 export default function LinkButton({ url, icon, title }: LinkButtonProps) {
+
     return (
         <a
             href={url}
             target="_blank"
             rel="noopener noreferrer"
+            className="link-button"
             style={{
                 padding: "1rem",
-                margin: "0.5rem 0",
-                backgroundColor: "#0e0e0e",
+                margin: "0.25rem 0", // reduce spacing
                 color: "#fff",
                 borderRadius: "8px",
                 textDecoration: "none",
